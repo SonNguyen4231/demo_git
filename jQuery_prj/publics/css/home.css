@@ -1,0 +1,73 @@
+.td1 {
+  width: 100% !important;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.delete,
+.add {
+  padding: 10px 16px;
+  border: none;
+  font-size: 18px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+tr {
+  display: flex;
+  width: 100% !important;
+}
+
+.data {
+  width: 100% !important;
+}
+
+body {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form1,
+.form2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  align-items: left;
+  text-align: left !important;
+}
+
+.delete:hover,
+.add:hover {
+  opacity: 0.6;
+}
+
+.form1 div ,
+.form2 div {
+  height: 25%;
+}
+
+table {
+  font-family: Verdana, Tahoma, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
